@@ -147,23 +147,34 @@ h1{
 }
 
 form{
+    left: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
+form h1{
+    text-align: left;
+}
+
 form div{
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
 }
 
-form div div{
+.shop_address{
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.shop_address div{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: left;
 }
 
 input{
@@ -172,4 +183,27 @@ input{
     padding: 10px;
     font-size: 18px;
     border-radius: 5px;
+}
+
+.heading{
+    font-size: 22px;
+    font-family: Montserrat;
+    padding: 30px;
+    font-weight: 900;
+    color: crimson;
+}
+.heading:last-child{
+    padding-bottom: -10px;
+}
+
+form div div h1,.shop_name h1{
+    font-size: 18px;
+    font-family: Montserrat;
+    padding: 5px;
+}
+
+.shop_name,.landmark,.city,.pincode{
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
