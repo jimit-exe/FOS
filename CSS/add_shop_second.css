@@ -160,6 +160,12 @@ form div{
     align-items: center;   
 }
 
+form div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 input{
     border: none;
     outline: none;
